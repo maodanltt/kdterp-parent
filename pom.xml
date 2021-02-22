@@ -67,7 +67,6 @@
             </dependency>
 
 
-
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-orm</artifactId>
@@ -158,7 +157,6 @@
             </plugin>
         </plugins>
     </build>
-
 
 
 </project>
