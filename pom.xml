@@ -25,6 +25,7 @@
         <mybatis.spring.version>1.2.2</mybatis.spring.version>
         <druid.version>1.0.9</druid.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <aspectj.version>1.8.7</aspectj.version>
     </properties>
 
     <dependencyManagement>
@@ -58,6 +59,14 @@
                 <artifactId>spring-aop</artifactId>
                 <version>${spring.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-aspects</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+
 
             <dependency>
                 <groupId>org.springframework</groupId>
@@ -131,7 +140,6 @@
                 <artifactId>druid</artifactId>
                 <version>${druid.version}</version>
             </dependency>
-
 
         </dependencies>
     </dependencyManagement>
